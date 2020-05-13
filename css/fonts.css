@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'BigJohn';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/BigJohn/BigJohn.otf") format("opentype");
+   }
+
+
+
+/*
+@font-face {
+  font-family: 'BigJohn';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Anders/Anders.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Anders/Anders.woff") format("woff"),
+       url("../fonts/Anders/Anders.ttf") format("truetype");
+   }

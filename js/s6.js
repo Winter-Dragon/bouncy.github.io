@@ -1,0 +1,42 @@
+document.querySelector('.s6__indicator1').onclick = function() {
+	document.querySelector(".s6__indicator1").className = "s6__indicator1 s6__active-indicator";
+	document.querySelector(".s6__indicator2").className = "s6__indicator2";
+	document.querySelector(".s6__indicator3").className = "s6__indicator3";
+	document.getElementById("s6__change-img").src='img/s6/photo1.jpg';
+	document.getElementById("s6__name").innerHTML='Abdullah Noman';
+	document.getElementById("s6__place").innerHTML='Creative Director, Code Cafe';
+	document.querySelector(".s6__graph_progress1").style.width = "80%";
+	document.querySelector(".s6__graph_progress2").style.width = "65%";
+	document.querySelector(".s6__graph_progress3").style.width = "75%";
+	document.getElementById("s6__graph-text-right1").innerHTML='80 %';
+	document.getElementById("s6__graph-text-right2").innerHTML='65 %';
+	document.getElementById("s6__graph-text-right3").innerHTML='75 %';
+	};
+document.querySelector('.s6__indicator2').onclick = function() {
+	document.querySelector(".s6__indicator1").className = "s6__indicator1";
+	document.querySelector(".s6__indicator2").className = "s6__indicator2 s6__active-indicator";
+	document.querySelector(".s6__indicator3").className = "s6__indicator3";
+	document.getElementById("s6__change-img").src='img/s6/photo2.jpg';
+	document.getElementById("s6__name").innerHTML='Georgy Dzhalolov';
+	document.getElementById("s6__place").innerHTML='Web Developer, Web Designer';
+	document.querySelector(".s6__graph_progress1").style.width = "20%";
+	document.querySelector(".s6__graph_progress2").style.width = "35%";
+	document.querySelector(".s6__graph_progress3").style.width = "35%";
+	document.getElementById("s6__graph-text-right1").innerHTML='20 %';
+	document.getElementById("s6__graph-text-right2").innerHTML='35 %';
+	document.getElementById("s6__graph-text-right3").innerHTML='35 %';
+	};
+document.querySelector('.s6__indicator3').onclick = function() {
+	document.querySelector(".s6__indicator1").className = "s6__indicator1";
+	document.querySelector(".s6__indicator2").className = "s6__indicator2";
+	document.querySelector(".s6__indicator3").className = "s6__indicator3 s6__active-indicator";
+	document.getElementById("s6__change-img").src='img/s6/photo3.jpg';
+	document.getElementById("s6__name").innerHTML='Alexey Galeev';
+	document.getElementById("s6__place").innerHTML='Web Developer, Programmer';
+	document.querySelector(".s6__graph_progress1").style.width = "25%";
+	document.querySelector(".s6__graph_progress2").style.width = "40%";
+	document.querySelector(".s6__graph_progress3").style.width = "25%";
+	document.getElementById("s6__graph-text-right1").innerHTML='25 %';
+	document.getElementById("s6__graph-text-right2").innerHTML='40 %';
+	document.getElementById("s6__graph-text-right3").innerHTML='25 %';
+	};
